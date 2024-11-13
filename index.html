@@ -49,6 +49,55 @@
     </script>
   </head>
   <body class="font-manrope">
+    <!-- navbar -->
+     <section class="md:container mx-auto"><div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a>Home</a></li>
+        <li><a>Service</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact Us</a></li>
+        
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl"> <i
+      class="lg:visible invisible fa-solid fa-arrow-right p-2 rounded-3xl bg-[#ABEF5F] -rotate-45"
+    ></i>Renitroi</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>Home</a></li>
+        <li><a>Service</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <i class="fa-solid fa-cart-shopping lg:visible invisible p-3 bg-gray-100 rounded-full"></i>
+    <i class=" lg:visible invisible fa-solid fa-magnifying-glass mx-3 p-3 bg-gray-100 rounded-full"></i>
+    <a class="lg:visible invisible btn rounded-3xl  bg-[#ABEF5F]">Book Consultant  <i class="lg:visible invisible p-3 fa-solid fa-arrow-right  rounded-full bg-black  text-white " ></i></a>
+  
+  </div>
+</div></section>
     <!-- Banner -->
     <section class="md:container mx-auto">
       <div class="hero">
@@ -145,9 +194,9 @@
         </p>
         <!-- Work Process Card Section -->
 
-        <div class="card lg:flex-row gap-6">
+        <div class="card lg:flex-row gap-2 lg:gap-6">
           <!-- first-card-work-process -->
-          <div class="card-body bg-[#E7C1D3] rounded-xl p-6 mb-20">
+          <div class="card-body bg-[#E7C1D3] rounded-xl p-6 mb-3 lg:mb-20">
             <img class="w-6 h-6" src="assets/concept.png" alt="" />
             <h2 class="card-title text-xl font-extrabold">Concept</h2>
             <p>
@@ -157,7 +206,7 @@
             </p>
           </div>
           <!-- second card  -->
-          <div class="card-body bg-[#EFDA6E] rounded-xl p-6 mb-20">
+          <div class="card-body bg-[#EFDA6E] rounded-xl p-6 mb-3 lg:mb-20">
             <img class="w-6 h-6" src="assets/flow-chart.png" alt="" />
             <h2 class="card-title text-xl font-extrabold">Design Process</h2>
             <p>
@@ -167,7 +216,7 @@
             </p>
           </div>
           <!-- third card -->
-          <div class="card-body bg-[#A4DAC3] rounded-xl p-6 mb-20">
+          <div class="card-body bg-[#A4DAC3] rounded-xl p-6 mb-3 lg:mb-20">
             <img class="w-6 h-6" src="assets/flow-chart.png" alt="" />
             <h2 class="card-title text-xl font-extrabold">Supervision</h2>
             <p>
@@ -177,7 +226,7 @@
             </p>
           </div>
           <!-- FOurth card -->
-          <div class="card-body bg-[#77AAEA] rounded-xl p-6 mb-20">
+          <div class="card-body bg-[#77AAEA] rounded-xl p-6 mb-3 lg:mb-20">
             <img class="w-6 h-6" src="assets/flow-chart.png" alt="" />
             <h2 class="card-title text-xl font-extrabold">Budget Planning</h2>
             <p>
@@ -200,7 +249,7 @@
       <h1 class="text-3xl lg:text-5xl text-center font-extrabold mt-6">
         Our Latest Portfolio
       </h1>
-      <p class="py-6 text-center">
+      <p class="py-6 text-center w-4/6">
         The barn house captivates with its blend of rustic charm and 
         modern sophistication, <br/> featuring weathered wood, sleek metal accents.
       </p>
@@ -216,7 +265,7 @@
       <!-- second  -->
        <div class="lg:grid grid-cols-4  items-center justify-around gap-3 mb-5">
         <div class="rounded-3xl shadow-lg"><img class="w-full p-4 " src="assets/img3.png" alt=""></div>
-        <div class="col-span-2 flex gap-5 h-full p-4 shadow-lg rounded-3xl"> 
+        <div class="col-span-2 flex lg:flex-row flex-col gap-5 h-full p-4 shadow-lg rounded-3xl"> 
           <img src="assets/img4.png" alt="">
         <div class="">
           <h4 class="font-extrabold text-2xl">Commercial</h4>
@@ -239,7 +288,7 @@
       <h1 class="text-3xl lg:text-5xl text-center font-extrabold mt-6">
         Read Our Articles and News
       </h1>
-      <p class="py-6 text-center">
+      <p class="py-6 text-center w-5/6 mx-auto">
         The barn house captivates with its blend of rustic charm and 
         modern sophistication, <br/> featuring weathered wood, sleek metal accents.
       </p>
@@ -322,7 +371,7 @@
           <h1 class="text-3xl lg:text-5xl text-center font-extrabold mt-6">
             Let’s Discuss Next Project
           </h1>
-          <p class="py-6 text-center">
+          <p class="py-6 text-center w-4/6 text-center mx-auto">
             The barn house captivates with its blend of rustic charm and 
             modern sophistication, <br/> featuring weathered wood, sleek metal accents.
           </p>
@@ -341,7 +390,7 @@
               <textarea class="w-full rounded-3xl h-[150px] p-3" placeholder="Write Your message Here" name="" id=""></textarea>
             </div>
             <div class="my-4">
-              <button class="w-full py-3 rounded-3xl font-extrabold bg-[#ABEF5F]">Send mail<i class="p-3 fa-solid fa-arrow-right mx-2 rounded-full bg-black  text-[#494949] mr-2" ></i></button>
+              <button class="w-full py-3 rounded-3xl font-extrabold bg-[#ABEF5F]">Send mail<i class="p-3 fa-solid fa-arrow-right mx-2 rounded-full bg-black  text-white mr-2" ></i></button>
             </div>
             
             <!-- <br>
@@ -359,11 +408,35 @@
            </form>
        </div>
       </section>
+      <!-- Acordian -->
+       <section class="lg:visible invisible md:container bg-gray-500 mx-auto lg:my-10 p-10 rounded-3xl flex flex-col gap-5">
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" checked="checked" />
+          <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+       </section>
   </body>
   <footer class="footer footer-center bg-black text-base-content rounded p-10">\
     <h4 class="text-4xl font-extrabold text-white inline"><i class="fa-solid fa-arrow-right text-white  py-2 px-3 rounded-full bg-[#ABEF5F] mr-3" ></i>Renitro</h4>
     <p class="text-[#737373] w-2/5">The barn house captivates with its blend of rustic charm and modern sophistication,  featuring weathered wood, sleek metal accents.</p>
-    <nav class="grid lg:grid-flow-col gap-4 text-[#E9E9E9] text-base  grid-flow-row space-x-10">
+    <nav class="grid lg:grid-flow-col items-center justify-center gap-4 text-[#E9E9E9] text-base  grid-flow-row space-x-10">
       <a class="link link-hover">Home</a>
       <a class="link link-hover">Sevice</a>
       <a class="link link-hover">Portfolio</a>
